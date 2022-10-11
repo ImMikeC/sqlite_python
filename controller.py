@@ -1,5 +1,5 @@
 import sqlite3 as sql
-
+#use sqlite instead of mysql
 def createDB():
     conn = sql.connect("streamers.db")
     conn.commit()
